@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 40%;
+}
+
+/* Clock */
+.container2 {
+  font-family: arial;
+  font-weight: bold;
+  color: grey;
+  border: 1px solid black;
+  width: 340px;
+  padding: 10px;
+}
+
+/* Navbar */
+
+.topnav {
+  background-color: rgb(238, 231, 231);
+  width: 100%;
+  text-align: center;
+}
+
+/* buttons inside navbar */
+.topnav span a {
+  font-family: "Fredoka One", cursive;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+}

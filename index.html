@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Serious business</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script type="text/javascript" src="main.js">
+    </script>
+  </head>
+  <body onload="renderTime();">
+    <!-- Header -->
+    <section id="header">
+        <!-- Clock -->    
+        <div id="clockDisplay" class="container2"></div>
+        <!-- Logo -->
+            <IMG class="displayed" src="img/donutlogo.png" alt="Donut King">
+       
+        <!-- Nav -->
+            <div id="navbar" class="topnav">
+                <span><a class="active" href="#home">Home</a></span>
+                <span><a href="#menu">Menu</a>
+                <a href="#openinghours">Opening hours</a></span>
+                <span><a href="#contact">Contact</a></span>
+            </div>
+        
+
+    <section id="menu"></section>
+
+    <section id="openinghours">
+            <table>
+                <tr>
+                  <th>Day</th>
+                  <th>Hours</th> 
+                </tr>
+                <tr>
+                  <td>Monday</td>
+                  <td>Closed</td> 
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>10am-<span id="closingTime"></span>6pm</span></td> 
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>10am-6pm</td> 
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>10am-6pm</td> 
+                </tr> 
+                <tr>
+                    <td>Thursday</td>
+                    <td>10am-6pm</td> 
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10am-6pm</td> 
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>10am-6pm</td> 
+                </tr>
+            </table>
+            <button>
+              <span id="LiveClock" onclick="changeClosingTime()"> 
+              </span>
+            </button>
+
+    </section>
+
+    <section id="contact">
+      <ul>
+        <li>Sint-Pietersvliet 7</li>
+        <li>2000 Antwerpen</li>
+        <li>Tel: <a href="tel:1-408-555-5555">0475-123.456</a></li>
+      </ul>
+      <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="belgium">Belgium</option>
+            <option value="netherlands">Netherlands</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+    </section>  
+        
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../javascript/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+
+    
+  </body>
+</html>
